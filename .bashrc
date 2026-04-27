@@ -90,6 +90,13 @@ alias ll="ls -l"
 alias lla="ls -la"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# The only way to get things done
+alias codex="codex --dangerously-bypass-approvals-and-sandbox"
+alias claude="claude --dangerously-skip-permissions"
+alias qwen="qwen --yolo"
+alias gemini="gemini --yolo"
+
 dotfiles_init() {
     # Update all submodules
     dotfiles submodule update --init --recursive
