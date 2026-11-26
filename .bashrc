@@ -95,7 +95,7 @@ alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias codex="codex --dangerously-bypass-approvals-and-sandbox"
 alias claude="claude --dangerously-skip-permissions"
 alias qwen="qwen --yolo"
-alias gemini="gemini --yolo"
+alias agy="agy --dangerously-skip-permissions"
 
 dotfiles_init() {
     # Update all submodules
